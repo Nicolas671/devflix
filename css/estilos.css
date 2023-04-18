@@ -1,0 +1,222 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+:root {
+	--cor-fundo:#000000;
+	--cor-texto:#FFFFFF;
+	--cor-botao:#009748;
+    --cor-fundo2:#222634;
+}
+
+ header {
+ 	background-color: var(--cor-fundo);
+ 	text-align: center;
+ 	padding: 20px 10px;
+ }
+ #inicio {
+ 	background-color: var(--cor-fundo) ;
+ 	height: 900px;
+ }
+
+ .container {
+ 	display: grid;
+ 	grid-template-areas: "col-esquerda col-direita";
+ 	width: 1440px;
+ 	grid-template-columns: 720px 720px;
+ }
+ .coluna_esquerda {
+ 	color: var(--cor-texto);
+ 	grid-area: col-esquerda;
+ 	height: 900px;
+ 	text-align: center;
+ }
+ .titulo {
+ 	font-family: 'Inter';
+ 	font-weight: 900px;
+ 	font-size: 28px;
+ 	text-align: center;
+ }
+ .botao_combo {
+ 	display:block ;
+ 	background:var(--cor-botao) ;
+ 	color:var(--cor-texto) ;
+ 	text-decoration:none ;
+ 	border-radius:8px ;
+ 	padding:16px ;
+ 	margin:0px 60px ;
+ 	font-family:'Inter' ;
+ 	font-size:16px ;
+ }
+ .botao_dev {
+ 	display:block ;
+ 	background:transparent ;
+ 	color:var(--cor-texto) ;
+ 	border: 2px solid #ffffff;
+ 	text-decoration:none ;
+ 	border-radius:8px ;
+ 	padding:16px ;
+ 	margin:0px 60px ;
+ 	font-family:'Inter' ;
+ 	font-size:16px ;
+ }
+.bk_quarteto {
+	background-image: url('../imagens/4_fantastico.png');
+    background-repeat: no-repeat;
+}
+
+#assista {
+    background-color: var(--cor-fundo2) ;
+    height: 900px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-areas: "col-esquerda2 col-direita2";
+    width: 1440px;
+    grid-template-columns: 720px 720px;
+    height: 900px;
+ }
+
+.coluna_direita2 {
+    color: var(--cor-texto);
+    grid-area: col-direita2;
+    text-align: left;
+    margin: auto;
+
+}
+.titulo2{
+    font-family: 'Inter';
+    font-weight: 900px;
+    font-size: 28px;
+}
+
+.coluna_esquerda2 {
+    color: var(--cor-texto);
+    grid-area: col-esquerda2;
+    margin: auto;
+
+}
+
+#assine {
+    background-color: var(--cor-fundo) ;
+    height: 900px;
+}
+
+.container3 {
+    display: grid;
+    grid-template-areas: "col-esquerda3 col-direita3";
+    width: 1440px;
+    grid-template-columns: 720px 720px;
+    height: 900px;
+ }
+ 
+ .coluna_direita3{
+    color: var(--cor-texto);
+    grid-area: col-direita3;
+    margin: auto;
+
+ }
+
+ .coluna_esquerda3{
+    color: var(--cor-texto);
+    grid-area: col-esquerda3;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+
+ }
+  .botao_assine {
+    display:block ;
+    background:var(--cor-botao) ;
+    color:var(--cor-texto) ;
+    text-decoration:none ;
+    border-radius:8px ;
+    padding:16px ;
+    margin:0px 60px ;
+    font-family:'Inter' ;
+    font-size:16px ;
+ }
+
+ #baixe {
+    background-color: var(--cor-fundo2) ;
+    height: 900px;
+}
+
+.container4 {
+    display: grid;
+    grid-template-areas: "col-esquerda4 col-direita4";
+    width: 1440px;
+    grid-template-columns: 720px 720px;
+    height: 900px;
+ }
+
+ .coluna_direita4 {
+    color: var(--cor-texto);
+    grid-area: col-direita4;
+    text-align: left;
+    margin: auto;
+ }
+
+ .coluna_esquerda4 {
+    color: var(--cor-texto);
+    grid-area: col-esquerda4;
+    margin: auto;
+
+}
+ .titulo4{
+    font-family: 'Inter';
+    font-weight: 900px;
+    font-size: 48px;
+    text-align: left;
+
+ }
+
+#dispositivos {
+    background-color: var(--cor-fundo) ;
+    height: 900px;
+
+}
+
+.container5 {
+    display: grid;
+    grid-template-areas: "col-esquerda5 col-center5 col-direita5";
+    width: 1440px;
+    grid-template-columns: 480px 480px 480px;
+    height: 900px;
+ }
+ .titulo5 {
+    font-family: 'Inter';
+    font-weight: 900px;
+    font-size: 48px;
+    text-align: center;
+    color:var(--cor-texto);
+    padding-top: 50px ;
+}
+
+ .coluna_direita5 {
+    color: var(--cor-texto);
+    grid-area: col-direita5;
+    margin: auto;
+    text-align: center;
+ }
+
+ .coluna_centro5{
+    color: var(--cor-texto);
+    grid-area: col-center5;
+    margin: auto;
+    text-align: center;
+
+ }
+
+ .coluna_esquerda5 {
+    color: var(--cor-texto);
+    grid-area: col-esquerda5;
+    margin: auto;
+    text-align: center;
+
+}
+
+#contato {
+    background-color: var(--cor-fundo2) ;
+    height: 900px;
